@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(php -r \"echo file_get_contents(''''http://localhost/grupoab/index.php'''');\")",
+      "WebFetch(domain:www.bertoliniarmazenagem.com.br)",
+      "Bash(php -r \"echo file_get_contents(''http://localhost/grupoab/index.php'');\")",
+      "Bash(dir C:xampphtdocsgrupoabassetsimgbackground)",
+      "Bash(dir \"C:\\xampp\\htdocs\\grupoab\\assets\\img\\background\\porta-pallet\" /b)",
+      "Bash(if [ -f \"C:\\xampp\\htdocs\\grupoab\\sobre.php\" ])",
+      "Bash(then rm \"C:\\xampp\\htdocs\\grupoab\\sobre.php\")",
+      "Bash(else echo \"Arquivo sobre.php não encontrado\")",
+      "Bash(fi)",
+      "Bash(dir:*)",
+      "Bash(php -m:*)",
+      "Bash(php --ini:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

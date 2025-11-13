@@ -1,0 +1,44 @@
+# Arquivos e pastas a ignorar no Git
+
+# Arquivos de configuração local
+config-local.php
+.env
+
+# Pastas de cache e temporários
+/cache/
+/tmp/
+/temp/
+
+# Logs
+*.log
+/logs/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (se houver)
+/node_modules/
+
+# Arquivos de backup
+*.bak
+*.swp
+*.swo
+*~
+
+# Uploads de usuários (se aplicável)
+# /uploads/
+
+# Imagens originais não otimizadas (manter apenas as otimizadas)
+/assets/img/original/
+
+# Arquivos sensíveis
+/private/
+/.htpasswd

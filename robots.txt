@@ -1,0 +1,23 @@
+# robots.txt para Grupo AB
+# https://www.grupoab.net/robots.txt
+
+User-agent: *
+Allow: /
+
+# Diretórios permitidos
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /produtos/
+Allow: /*.php$
+
+# Diretórios bloqueados
+Disallow: /includes/
+Disallow: /processa_
+Disallow: /image-optimizer.php
+
+# Arquivos específicos
+Disallow: /config.php
+
+# Sitemap
+Sitemap: http://localhost/grupoab/sitemap.xml
